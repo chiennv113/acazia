@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.acazia">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Feed.FeedLocalAct" />
+        <activity android:name=".LoginSignUp.PasswordChangeActivity" />
+        <activity android:name=".LoginSignUp.ResetPassNewPassActivity" />
+        <activity android:name=".LoginSignUp.ResetPassVerifyActivity" />
+        <activity android:name=".LoginSignUp.ResetPassPhoneActivity" />
+        <activity android:name=".LoginSignUp.SignInActivity" />
+        <activity android:name=".LoginSignUp.EnablePushActivity" />
+        <activity android:name=".LoginSignUp.ConnectContactActivity" />
+        <activity android:name=".LoginSignUp.EnableFBActivity" />
+        <activity android:name=".LoginSignUp.ProfileCreatedActivity" />
+        <activity android:name=".LoginSignUp.CreateProfileActivity" />
+        <activity android:name=".LoginSignUp.CreateAccountActivity" />
+        <activity android:name=".LoginSignUp.EnterVerifyCodeActivity" />
+        <activity android:name=".LoginSignUp.EnterPhoneNumberActivity" />
+        <activity android:name=".LoginSignUp.WelcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#58BDA2"
+    tools:context=".LoginSignUp.WelcomeActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="64dp"
+        android:textColor="#FFFFFFFF"
+        android:textSize="31sp"
+        android:text="@string/SignUp"
+        app:layout_constraintBottom_toTopOf="@+id/btnLoginWithFb"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnLoginWithFb"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/custome_btn_login_fb"
+        android:drawableStart="@drawable/facebook_box"
+        android:padding="16dp"
+        android:text="@string/Welcome_in_with_Fb"
+        android:textAllCaps="false"
+        android:textColor="#3C5E9E"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnLoginWithPhone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnLoginWithPhone"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="64dp"
+        android:background="@drawable/custome_btn_login_phone"
+        android:padding="16dp"
+        android:text="@string/Start_with_phone_number"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/tvLogin"
+        app:layout_constraintEnd_toEndOf="@+id/btnLoginWithFb"
+        app:layout_constraintStart_toStartOf="@+id/btnLoginWithFb" />
+
+    <TextView
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        android:id="@+id/tvLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:text="@string/Joined_us_before_login"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/btnLoginWithPhone"
+        app:layout_constraintStart_toStartOf="@+id/btnLoginWithPhone" />
+</androidx.constraintlayout.widget.ConstraintLayout>
