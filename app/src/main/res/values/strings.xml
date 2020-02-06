@@ -49,4 +49,5 @@
     <string name="LocalFragment">Local</string>
     <string name="YourCircleFragment">Your Circle</string>
     <string name="TrendingFragment">Trending</string>
+    <string name="Following">Following</string>
 </resources>

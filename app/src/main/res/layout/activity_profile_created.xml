@@ -5,12 +5,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorBackground"
-    tools:context=".LoginSignUp.ProfileCreatedActivity">
+    tools:context=".loginSignUp.ProfileCreatedActivity">
 
     <TextView
-        android:textSize="31sp"
-        android:textColor="@color/colorWhite"
         android:id="@+id/textView12"
+        style="@style/TitleAct"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/ProfileCreated"

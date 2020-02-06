@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tv_title_margin_start">48dp</dimen>
+    <dimen name="text_size_inbutton">16sp</dimen>
+    <dimen name="text_size_inTvBottom">16sp</dimen>
+    <dimen name="tv_bottom_margin_bottom">32dp</dimen>
+    <dimen name="fab_marginEnd">16dp</dimen>
+    <dimen name="fab_marginBottom">16dp</dimen>
+    <dimen name="text_size_inTittle">31sp</dimen>
+    <dimen name="padding_start_end_button">16dp</dimen>
+    <dimen name="imgBack_marginStart">8dp</dimen>
+    <dimen name="imgBack_marginTop">8dp</dimen>
+    <dimen name="text_size_below_tittle">16sp</dimen>
+    <dimen name="text_size_inVerifyCode">20sp</dimen>
+    <dimen name="recyclerView_marginStart">16dp</dimen>
+    <dimen name="recyclerView_marginEnd">16dp</dimen>
+
+</resources>

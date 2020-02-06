@@ -9,21 +9,24 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Feed.FeedLocalAct" />
-        <activity android:name=".LoginSignUp.PasswordChangeActivity" />
-        <activity android:name=".LoginSignUp.ResetPassNewPassActivity" />
-        <activity android:name=".LoginSignUp.ResetPassVerifyActivity" />
-        <activity android:name=".LoginSignUp.ResetPassPhoneActivity" />
-        <activity android:name=".LoginSignUp.SignInActivity" />
-        <activity android:name=".LoginSignUp.EnablePushActivity" />
-        <activity android:name=".LoginSignUp.ConnectContactActivity" />
-        <activity android:name=".LoginSignUp.EnableFBActivity" />
-        <activity android:name=".LoginSignUp.ProfileCreatedActivity" />
-        <activity android:name=".LoginSignUp.CreateProfileActivity" />
-        <activity android:name=".LoginSignUp.CreateAccountActivity" />
-        <activity android:name=".LoginSignUp.EnterVerifyCodeActivity" />
-        <activity android:name=".LoginSignUp.EnterPhoneNumberActivity" />
-        <activity android:name=".LoginSignUp.WelcomeActivity">
+        <activity android:name=".feed.FollowingAct">
+
+        </activity>
+        <activity android:name=".feed.FeedLocalAct" />
+        <activity android:name=".loginSignUp.PasswordChangeActivity" />
+        <activity android:name=".loginSignUp.ResetPassNewPassActivity" />
+        <activity android:name=".loginSignUp.ResetPassVerifyActivity" />
+        <activity android:name=".loginSignUp.ResetPassPhoneActivity" />
+        <activity android:name=".loginSignUp.SignInActivity" />
+        <activity android:name=".loginSignUp.EnablePushActivity" />
+        <activity android:name=".loginSignUp.ConnectContactActivity" />
+        <activity android:name=".loginSignUp.EnableFBActivity" />
+        <activity android:name=".loginSignUp.ProfileCreatedActivity" />
+        <activity android:name=".loginSignUp.CreateProfileActivity" />
+        <activity android:name=".loginSignUp.CreateAccountActivity" />
+        <activity android:name=".loginSignUp.EnterVerifyCodeActivity" />
+        <activity android:name=".loginSignUp.EnterPhoneNumberActivity" />
+        <activity android:name=".loginSignUp.WelcomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

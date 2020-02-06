@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorBackground"
-    tools:context=".LoginSignUp.CreateProfileActivity">
+    tools:context=".loginSignUp.CreateProfileActivity">
 
     <ImageView
         android:id="@+id/imgBack"
@@ -25,7 +25,7 @@
         android:layout_marginTop="32dp"
         android:text="@string/yourProfile"
         android:textColor="@color/colorWhite"
-        android:textSize="31sp"
+        android:textSize="@dimen/text_size_inTittle"
         app:layout_constraintStart_toEndOf="@+id/imgBack"
         app:layout_constraintTop_toBottomOf="@+id/imgBack" />
 
@@ -69,8 +69,8 @@
         android:id="@+id/floatingActionButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="@dimen/fab_marginEnd"
+        android:layout_marginBottom="@dimen/fab_marginBottom"
         android:clickable="true"
         app:backgroundTint="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"

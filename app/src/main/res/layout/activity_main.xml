@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#58BDA2"
-    tools:context=".LoginSignUp.WelcomeActivity">
+    tools:context=".loginSignUp.WelcomeActivity">
 
     <TextView
         android:id="@+id/textView"
@@ -21,10 +21,8 @@
 
     <Button
         android:id="@+id/btnLoginWithFb"
-        android:layout_width="0dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="64dp"
-        android:layout_marginEnd="64dp"
         android:layout_marginBottom="16dp"
         android:background="@drawable/custome_btn_login_fb"
         android:drawableStart="@drawable/facebook_box"
@@ -53,13 +51,13 @@
         app:layout_constraintStart_toStartOf="@+id/btnLoginWithFb" />
 
     <TextView
-        android:textColor="#FFFFFF"
-        android:textSize="12sp"
         android:id="@+id/tvLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="32dp"
         android:text="@string/Joined_us_before_login"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/btnLoginWithPhone"
         app:layout_constraintStart_toStartOf="@+id/btnLoginWithPhone" />

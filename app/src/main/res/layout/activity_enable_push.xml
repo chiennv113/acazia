@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorBackground"
-    tools:context=".LoginSignUp.EnableFBActivity">
+    tools:context=".loginSignUp.EnableFBActivity">
 
     <TextView
         android:id="@+id/textView13"
@@ -50,7 +50,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView15" />
 
     <Button
-        android:textSize="16sp"
+        android:textSize="@dimen/text_size_inbutton"
         android:background="@drawable/custome_btn_login_fb"
         android:gravity="center"
         android:textAllCaps="false"
@@ -65,11 +65,11 @@
         app:layout_constraintTop_toBottomOf="@+id/textView16" />
 
     <TextView
-        android:textSize="16sp"
+        android:textSize="@dimen/text_size_inTvBottom"
         android:id="@+id/tvSkip"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="48dp"
+        android:layout_marginBottom="@dimen/tv_bottom_margin_bottom"
         android:text="@string/skip"
         android:textColor="@color/colorWhite"
         app:layout_constraintBottom_toBottomOf="parent"
