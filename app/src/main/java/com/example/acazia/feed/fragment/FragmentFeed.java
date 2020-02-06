@@ -39,7 +39,7 @@ public class FragmentFeed extends Fragment {
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        SimpleFragmentPagerAdapter simpleFragmentPagerAdapter = new SimpleFragmentPagerAdapter(getActivity(), getActivity().getSupportFragmentManager());
+        SimpleFragmentPagerAdapter simpleFragmentPagerAdapter = new SimpleFragmentPagerAdapter(getContext(), getChildFragmentManager());
         mViewpager.setAdapter(simpleFragmentPagerAdapter);
         mTabLayout.setupWithViewPager(mViewpager);
     }

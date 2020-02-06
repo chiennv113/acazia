@@ -50,4 +50,6 @@
     <string name="YourCircleFragment">Your Circle</string>
     <string name="TrendingFragment">Trending</string>
     <string name="Following">Following</string>
+    <string name="letStart">Let\'s Start</string>
+    <string name="CreateSession">Create a Session</string>
 </resources>

@@ -9,9 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".feed.FollowingAct">
-
-        </activity>
+        <activity android:name=".feed.CreateSessionActivity"></activity>
+        <activity android:name=".feed.FollowingAct"></activity>
         <activity android:name=".feed.FeedLocalAct" />
         <activity android:name=".loginSignUp.PasswordChangeActivity" />
         <activity android:name=".loginSignUp.ResetPassNewPassActivity" />

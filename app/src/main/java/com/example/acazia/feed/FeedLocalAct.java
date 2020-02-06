@@ -1,5 +1,6 @@
 package com.example.acazia.feed;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.widget.FrameLayout;
@@ -47,7 +48,7 @@ public class FeedLocalAct extends AppCompatActivity implements BottomNavigationV
                 fragment = new FragmentNotification();
                 break;
             case R.id.navigation_add:
-                fragment = new FragmentAdd();
+                startActivity(new Intent(FeedLocalAct.this, CreateSessionActivity.class));
                 break;
             case R.id.navigation_event:
                 fragment = new FragmentEvent();
