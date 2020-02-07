@@ -1,4 +1,4 @@
-package com.example.acazia.feed.adapter;
+package com.example.acazia.view.feed.following;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -10,7 +10,6 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.acazia.feed.model.ModelTestFollowing;
 import com.example.acazia.R;
 
 import java.util.List;

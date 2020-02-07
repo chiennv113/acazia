@@ -8,7 +8,7 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.acazia.feed.FeedLocalAct;
+import com.example.acazia.view.feed.FeedLocalAct;
 import com.example.acazia.R;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.textfield.TextInputEditText;

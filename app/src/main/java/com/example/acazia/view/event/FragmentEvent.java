@@ -1,10 +1,9 @@
-package com.example.acazia.feed.fragment;
+package com.example.acazia.view.event;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -12,24 +11,15 @@ import androidx.fragment.app.Fragment;
 
 import com.example.acazia.R;
 
-public class FragmentAdd extends Fragment {
-    private ImageView mImageView4;
-    private ImageView mImgNext;
-
+public class FragmentEvent extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_add, container, false);
+        return inflater.inflate(R.layout.fragment_event,container,false);
     }
 
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        initView(view);
-    }
-
-    private void initView(View view) {
-        mImageView4 = view.findViewById(R.id.imgClose);
-        mImgNext = view.findViewById(R.id.imgNext);
     }
 }

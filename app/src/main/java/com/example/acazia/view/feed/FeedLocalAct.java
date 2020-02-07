@@ -1,4 +1,4 @@
-package com.example.acazia.feed;
+package com.example.acazia.view.feed;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -9,11 +9,10 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 
-import com.example.acazia.feed.fragment.FragmentAdd;
-import com.example.acazia.feed.fragment.FragmentEvent;
-import com.example.acazia.feed.fragment.FragmentFeed;
-import com.example.acazia.feed.fragment.FragmentNotification;
-import com.example.acazia.feed.fragment.FragmentProfile;
+import com.example.acazia.view.createSession.CreateSessionActivity;
+import com.example.acazia.view.event.FragmentEvent;
+import com.example.acazia.view.notification.FragmentNotification;
+import com.example.acazia.view.profile.FragmentProfile;
 import com.example.acazia.R;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 

@@ -1,4 +1,4 @@
-package com.example.acazia.feed.fragment;
+package com.example.acazia.view.profile;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;

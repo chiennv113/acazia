@@ -1,4 +1,4 @@
-package com.example.acazia.feed.adapter;
+package com.example.acazia.view.feed.adapter;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -9,7 +9,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.acazia.feed.model.ModelTest;
+import com.example.acazia.view.feed.model.ModelTest;
 import com.example.acazia.R;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 

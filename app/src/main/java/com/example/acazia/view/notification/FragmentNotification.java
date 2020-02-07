@@ -1,4 +1,4 @@
-package com.example.acazia.feed.fragment;
+package com.example.acazia.view.notification;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -12,9 +12,6 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.acazia.R;
-import com.example.acazia.feed.adapter.AdapterItem;
-import com.example.acazia.feed.adapter.AdapterNotification;
-import com.example.acazia.feed.model.ModelTestNotification;
 
 import java.util.ArrayList;
 import java.util.List;

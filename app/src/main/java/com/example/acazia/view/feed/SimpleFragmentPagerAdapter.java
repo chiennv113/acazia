@@ -1,4 +1,4 @@
-package com.example.acazia.feed;
+package com.example.acazia.view.feed;
 
 import android.content.Context;
 
@@ -7,9 +7,9 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 
-import com.example.acazia.feed.fragment.LocalFragment;
-import com.example.acazia.feed.fragment.TrendingFragment;
-import com.example.acazia.feed.fragment.YourCircleFragment;
+import com.example.acazia.view.feed.fragment.LocalFragment;
+import com.example.acazia.view.feed.fragment.TrendingFragment;
+import com.example.acazia.view.feed.fragment.YourCircleFragment;
 import com.example.acazia.R;
 
 public class SimpleFragmentPagerAdapter extends FragmentPagerAdapter {

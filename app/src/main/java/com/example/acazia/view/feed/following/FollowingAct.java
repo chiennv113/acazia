@@ -1,4 +1,4 @@
-package com.example.acazia.feed;
+package com.example.acazia.view.feed.following;
 
 import android.os.Bundle;
 
@@ -6,8 +6,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.acazia.feed.adapter.AdapterFollowing;
-import com.example.acazia.feed.model.ModelTestFollowing;
 import com.example.acazia.R;
 
 import java.util.ArrayList;

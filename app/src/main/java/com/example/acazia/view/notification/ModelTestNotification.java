@@ -1,4 +1,4 @@
-package com.example.acazia.feed.model;
+package com.example.acazia.view.notification;
 
 public class ModelTestNotification {
     private String avatar;

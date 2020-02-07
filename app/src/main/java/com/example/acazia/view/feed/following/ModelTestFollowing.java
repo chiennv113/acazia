@@ -1,4 +1,4 @@
-package com.example.acazia.feed.model;
+package com.example.acazia.view.feed.following;
 
 public class ModelTestFollowing {
     private String avatar;

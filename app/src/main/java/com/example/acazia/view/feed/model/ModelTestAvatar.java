@@ -1,4 +1,4 @@
-package com.example.acazia.feed.model;
+package com.example.acazia.view.feed.model;
 
 public class ModelTestAvatar {
     private String img;

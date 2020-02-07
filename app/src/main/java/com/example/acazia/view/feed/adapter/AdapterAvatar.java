@@ -1,4 +1,4 @@
-package com.example.acazia.feed.adapter;
+package com.example.acazia.view.feed.adapter;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -7,7 +7,7 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.acazia.feed.model.ModelTestAvatar;
+import com.example.acazia.view.feed.model.ModelTestAvatar;
 import com.example.acazia.R;
 
 import java.util.List;

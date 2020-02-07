@@ -51,5 +51,15 @@
     <string name="TrendingFragment">Trending</string>
     <string name="Following">Following</string>
     <string name="letStart">Let\'s Start</string>
-    <string name="CreateSession">Create a Session</string>
+    <string name="CreateSession">Create Session</string>
+    <string name="test">Thuộc tính android:inputType dùng để thiết lập kiểu nhập liệu, hiện thị. Tương ứng với mỗi kiểu này EditText sẽ có cách hiện thị cũng như liên kết với loại bàn phím tương ứng. Ví dụ như thiết lập nhập password thì dữ liệu nhập vào sẽ hiện thị bằng ký hiệu *, hay chọn dữ liệu số thì bàn phím xuất hiện là loại bàn phím số  Các hằng số gán vào android:inputType có thể kết hợp nhiều loại với nhau bằng phép toán |, tham khảo đầy đủ tại: inputType, ở đây là một số giá trị hay dùng:</string>
+    <string name="SessionsTitle">Session Title</string>
+    <string name="SessionsDescription">Session Description</string>
+    <string name="SessionsTitleContent">Shop opening</string>
+    <string name="SessionsDescriptionContent">In the order to discuss the general function of the logo, we must firstly identify and define the environment where this will have to fulfill its function.</string>
+    <string name="privateSesson">Is this a private sesstion? ( Users will require to get your permission to attend)</string>
+    <string name="Public">Public</string>
+    <string name="Private">Private</string>
+    <string name="CoverImg">Cover Image</string>
+    <string name="taptoEditOrRemove">Tap to Edit or Remove</string>
 </resources>

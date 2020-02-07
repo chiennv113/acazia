@@ -1,4 +1,4 @@
-package com.example.acazia.feed.fragment;
+package com.example.acazia.view.feed;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -11,7 +11,6 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.viewpager.widget.ViewPager;
 
-import com.example.acazia.feed.SimpleFragmentPagerAdapter;
 import com.example.acazia.R;
 import com.google.android.material.tabs.TabLayout;
 

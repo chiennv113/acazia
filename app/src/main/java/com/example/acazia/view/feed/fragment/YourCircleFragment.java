@@ -1,4 +1,4 @@
-package com.example.acazia.feed.fragment;
+package com.example.acazia.view.feed.fragment;
 
 import android.os.Bundle;
 import android.util.Log;
@@ -14,10 +14,10 @@ import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.acazia.feed.adapter.AdapterAvatar;
-import com.example.acazia.feed.adapter.AdapterItem;
-import com.example.acazia.feed.model.ModelTest;
-import com.example.acazia.feed.model.ModelTestAvatar;
+import com.example.acazia.view.feed.adapter.AdapterAvatar;
+import com.example.acazia.view.feed.adapter.AdapterItem;
+import com.example.acazia.view.feed.model.ModelTest;
+import com.example.acazia.view.feed.model.ModelTestAvatar;
 import com.example.acazia.R;
 
 import java.util.ArrayList;

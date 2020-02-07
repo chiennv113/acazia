@@ -1,4 +1,4 @@
-package com.example.acazia.feed;
+package com.example.acazia.view.createSession;
 
 import android.os.Bundle;
 import android.view.View;
